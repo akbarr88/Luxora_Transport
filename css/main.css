@@ -3830,6 +3830,114 @@ footer .row {
 }
 
 /* ------------------------------------------------------------------- 
+ *  Top Places to Explore :
+ * ------------------------------------------------------------------- */
+/* ===== LUXORA EXPLORE SECTION ONLY ===== */
+.lux-explore {
+    background: #0f172a;
+    padding: 100px 40px;
+    margin-top: -80px;
+}
+
+/* Header */
+.lux-explore__header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.lux-explore__subhead {
+    color: #3b82f6;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.lux-explore__title {
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+/* Grid */
+.lux-explore__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    column-gap: 14px;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: stretch;
+}
+
+/* Card */
+.lux-explore__card {
+    background: rgba(255,255,255,0.05);
+    padding: 20px 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(59,130,246,0.2);
+    transition: all 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 50px;
+    
+}
+
+.lux-explore__card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(59,130,246,0.15);
+}
+
+/* Title */
+.lux-explore__card h3 {
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+/* List */
+.lux-explore__card ul {
+    padding-left: 18px;
+}
+
+.lux-explore__card ul li {
+    color: #cbd5e1;
+    font-size: 20px;
+    margin-bottom: 6px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .lux-explore__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .lux-explore__title {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .lux-explore {
+        padding: 60px 15px;
+    }
+
+    .lux-explore__card {
+        padding: 18px;
+    }
+
+    .lux-explore__card h3 {
+        font-size: 16px;
+    }
+
+    .lux-explore__card ul li {
+        font-size: 13px;
+    }
+}
+
+/* ------------------------------------------------------------------- 
  * Floating WA:
  * ------------------------------------------------------------------- */
 
