@@ -4001,6 +4001,10 @@ footer .row {
     }
 }
 
+.hero {
+  animation: none !important;
+}
+
 
 
 
