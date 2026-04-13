@@ -102,5 +102,9 @@
     font-weight: normal;
 }
 
+@font-face {
+  font-display: swap;
+}
+
 
 /*# sourceMappingURL=fonts.css.map */
