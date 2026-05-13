@@ -1900,6 +1900,21 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     bottom: 0;
 }
 
+@media screen and (max-width: 768px) {
+    .home-content__main h1 {
+        font-size: 3rem !important;
+        line-height: 1.1 !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home-content__buttons .btn {
+        border-radius: 8px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 
 /* ------------------------------------------------------------------- 
  * ## home social 
@@ -3391,7 +3406,39 @@ footer .row {
     display: none;
 }
 
+/* ---------------------------------------------------------------
+ * ## footer sosmed
+ * --------------------------------------------------------------- */
 
+.footer-right-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.footer-follow {
+    min-width: 180px;
+}
+
+.footer-contact-info li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 768px) {
+
+    .footer-right-wrapper {
+        flex-direction: column !important;
+        gap: 45px !important;
+    }
+
+    .footer-follow {
+        margin-top: 10px;
+    }
+
+}
 /* ------------------------------------------------------------------- 
  * ## go to top
  * ------------------------------------------------------------------- */
